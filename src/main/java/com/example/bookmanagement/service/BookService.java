@@ -19,7 +19,7 @@ public class BookService {
     private final ApplicationConfig applicationConfig;
 
     public BookEntity findBookById(final Long bookId) {
-        return BookEntity.builder().id(bookId).build();
+        return BookEntity.builder().id(bookId).title("Title").author("Author" + bookId).build();
         // return ResourceNotFoundException("Book", "id", bookId);
     }
 
