@@ -9,9 +9,9 @@ import javax.persistence.*;
 
 import static javax.persistence.GenerationType.AUTO;
 
-@Entity
-@Table(
-        name = "books_details")
+//@Entity
+//@Table(
+//        name = "books_details")
 @NoArgsConstructor
 @Builder
 @AllArgsConstructor

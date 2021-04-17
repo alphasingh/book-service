@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 import javax.validation.Valid;
 import java.util.List;
 
@@ -20,7 +21,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
  * Class level and method level comment
  */
 @RequiredArgsConstructor(
-        onConstructor = @__({ @Autowired, @Lazy }))
+        onConstructor = @__({@Autowired, @Lazy}))
 @RestController
 @Slf4j
 @RequestMapping("/books")
